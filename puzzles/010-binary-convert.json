@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "title": "To Binary",
+  "description": "Write a function `solve(input)` that takes a non-negative integer (as a string) and returns its binary representation as a string.",
+  "examples": [
+    { "input": "10", "output": "1010" },
+    { "input": "255", "output": "11111111" }
+  ],
+  "testCases": [
+    { "input": "10", "expected": "1010", "visible": true },
+    { "input": "255", "expected": "11111111", "visible": true },
+    { "input": "0", "expected": "0", "visible": false },
+    { "input": "1", "expected": "1", "visible": false },
+    { "input": "1024", "expected": "10000000000", "visible": false }
+  ],
+  "par": { "js": 50, "python": 40 },
+  "difficulty": "easy",
+  "tags": ["math", "conversion"]
+}

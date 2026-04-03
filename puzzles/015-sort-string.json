@@ -1,0 +1,19 @@
+{
+  "id": 15,
+  "title": "Sort Characters",
+  "description": "Write a function `solve(input)` that takes a string and returns its characters sorted alphabetically.",
+  "examples": [
+    { "input": "hello", "output": "ehllo" },
+    { "input": "dcba", "output": "abcd" }
+  ],
+  "testCases": [
+    { "input": "hello", "expected": "ehllo", "visible": true },
+    { "input": "dcba", "expected": "abcd", "visible": true },
+    { "input": "a", "expected": "a", "visible": false },
+    { "input": "zzzzaa", "expected": "aazzzz", "visible": false },
+    { "input": "programming", "expected": "aggimmnoprr", "visible": false }
+  ],
+  "par": { "js": 55, "python": 40 },
+  "difficulty": "easy",
+  "tags": ["strings", "sorting"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 11,
+  "title": "Title Case",
+  "description": "Write a function `solve(input)` that takes a string and returns it in title case (first letter of each word capitalised, rest lowercase).",
+  "examples": [
+    { "input": "hello world", "output": "Hello World" },
+    { "input": "jAVASCRIPT is FUN", "output": "Javascript Is Fun" }
+  ],
+  "testCases": [
+    { "input": "hello world", "expected": "Hello World", "visible": true },
+    { "input": "jAVASCRIPT is FUN", "expected": "Javascript Is Fun", "visible": true },
+    { "input": "a", "expected": "A", "visible": false },
+    { "input": "the quick brown fox", "expected": "The Quick Brown Fox", "visible": false },
+    { "input": "ALREADY UPPER", "expected": "Already Upper", "visible": false }
+  ],
+  "par": { "js": 80, "python": 55 },
+  "difficulty": "easy",
+  "tags": ["strings"]
+}

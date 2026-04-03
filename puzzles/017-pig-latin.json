@@ -1,0 +1,21 @@
+{
+  "id": 17,
+  "title": "Pig Latin",
+  "description": "Write a function `solve(input)` that converts a lowercase word to Pig Latin. Move the first consonant cluster to the end and add \"ay\". If the word starts with a vowel, just add \"ay\" to the end.",
+  "examples": [
+    { "input": "hello", "output": "ellohay" },
+    { "input": "apple", "output": "appleay" },
+    { "input": "string", "output": "ingstray" }
+  ],
+  "testCases": [
+    { "input": "hello", "expected": "ellohay", "visible": true },
+    { "input": "apple", "expected": "appleay", "visible": true },
+    { "input": "string", "expected": "ingstray", "visible": true },
+    { "input": "eat", "expected": "eatay", "visible": false },
+    { "input": "chrome", "expected": "omechray", "visible": false },
+    { "input": "a", "expected": "aay", "visible": false }
+  ],
+  "par": { "js": 95, "python": 80 },
+  "difficulty": "medium",
+  "tags": ["strings", "regex"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 18,
+  "title": "Roman Numerals",
+  "description": "Write a function `solve(input)` that takes a number from 1 to 3999 (as a string) and returns its Roman numeral representation.",
+  "examples": [
+    { "input": "4", "output": "IV" },
+    { "input": "1994", "output": "MCMXCIV" }
+  ],
+  "testCases": [
+    { "input": "4", "expected": "IV", "visible": true },
+    { "input": "1994", "expected": "MCMXCIV", "visible": true },
+    { "input": "1", "expected": "I", "visible": false },
+    { "input": "58", "expected": "LVIII", "visible": false },
+    { "input": "3999", "expected": "MMMCMXCIX", "visible": false },
+    { "input": "500", "expected": "D", "visible": false }
+  ],
+  "par": { "js": 130, "python": 110 },
+  "difficulty": "hard",
+  "tags": ["math", "conversion"]
+}

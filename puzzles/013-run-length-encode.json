@@ -1,0 +1,19 @@
+{
+  "id": 13,
+  "title": "Run-Length Encoding",
+  "description": "Write a function `solve(input)` that takes a string and returns its run-length encoding. Each run of consecutive identical characters should be replaced with the character followed by the count.",
+  "examples": [
+    { "input": "aaabbc", "output": "a3b2c1" },
+    { "input": "wwwwaaadexxxxxx", "output": "w4a3d1e1x6" }
+  ],
+  "testCases": [
+    { "input": "aaabbc", "expected": "a3b2c1", "visible": true },
+    { "input": "wwwwaaadexxxxxx", "expected": "w4a3d1e1x6", "visible": true },
+    { "input": "a", "expected": "a1", "visible": false },
+    { "input": "abcd", "expected": "a1b1c1d1", "visible": false },
+    { "input": "aaa", "expected": "a3", "visible": false }
+  ],
+  "par": { "js": 95, "python": 80 },
+  "difficulty": "medium",
+  "tags": ["strings", "compression"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 20,
+  "title": "Diamond",
+  "description": "Write a function `solve(input)` that takes an odd number n (as a string) and returns a diamond shape made of * characters, n characters wide at its widest point. Each row should have no trailing spaces. Rows are separated by newlines.",
+  "examples": [
+    { "input": "3", "output": " *\n***\n *" },
+    { "input": "5", "output": "  *\n ***\n*****\n ***\n  *" }
+  ],
+  "testCases": [
+    { "input": "3", "expected": " *\n***\n *", "visible": true },
+    { "input": "5", "expected": "  *\n ***\n*****\n ***\n  *", "visible": true },
+    { "input": "1", "expected": "*", "visible": false },
+    { "input": "7", "expected": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *", "visible": false }
+  ],
+  "par": { "js": 120, "python": 100 },
+  "difficulty": "hard",
+  "tags": ["strings", "patterns"]
+}

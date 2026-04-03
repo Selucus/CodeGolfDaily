@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "title": "Remove Duplicates",
+  "description": "Write a function `solve(input)` that takes a comma-separated list of values and returns them with duplicates removed, preserving the original order, as a comma-separated string.",
+  "examples": [
+    { "input": "1,2,2,3,1,4", "output": "1,2,3,4" },
+    { "input": "a,b,a,c,b", "output": "a,b,c" }
+  ],
+  "testCases": [
+    { "input": "1,2,2,3,1,4", "expected": "1,2,3,4", "visible": true },
+    { "input": "a,b,a,c,b", "expected": "a,b,c", "visible": true },
+    { "input": "x", "expected": "x", "visible": false },
+    { "input": "1,1,1,1", "expected": "1", "visible": false },
+    { "input": "cat,dog,cat,fish,dog", "expected": "cat,dog,fish", "visible": false }
+  ],
+  "par": { "js": 75, "python": 60 },
+  "difficulty": "easy",
+  "tags": ["arrays", "sets"]
+}

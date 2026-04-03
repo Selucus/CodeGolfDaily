@@ -1,0 +1,20 @@
+{
+  "id": 14,
+  "title": "Is Prime?",
+  "description": "Write a function `solve(input)` that takes a number (as a string) and returns \"true\" if it's a prime number, or \"false\" otherwise.",
+  "examples": [
+    { "input": "7", "output": "true" },
+    { "input": "4", "output": "false" }
+  ],
+  "testCases": [
+    { "input": "7", "expected": "true", "visible": true },
+    { "input": "4", "expected": "false", "visible": true },
+    { "input": "1", "expected": "false", "visible": false },
+    { "input": "2", "expected": "true", "visible": false },
+    { "input": "97", "expected": "true", "visible": false },
+    { "input": "100", "expected": "false", "visible": false }
+  ],
+  "par": { "js": 85, "python": 70 },
+  "difficulty": "medium",
+  "tags": ["math"]
+}

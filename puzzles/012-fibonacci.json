@@ -1,0 +1,19 @@
+{
+  "id": 12,
+  "title": "Fibonacci",
+  "description": "Write a function `solve(input)` that takes a number n (as a string) and returns the nth Fibonacci number as a string. Use 0-indexing: F(0)=0, F(1)=1, F(2)=1, F(3)=2, etc.",
+  "examples": [
+    { "input": "6", "output": "8" },
+    { "input": "10", "output": "55" }
+  ],
+  "testCases": [
+    { "input": "6", "expected": "8", "visible": true },
+    { "input": "10", "expected": "55", "visible": true },
+    { "input": "0", "expected": "0", "visible": false },
+    { "input": "1", "expected": "1", "visible": false },
+    { "input": "20", "expected": "6765", "visible": false }
+  ],
+  "par": { "js": 75, "python": 65 },
+  "difficulty": "easy",
+  "tags": ["math", "recursion"]
+}

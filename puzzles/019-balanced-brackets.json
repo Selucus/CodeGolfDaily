@@ -1,0 +1,22 @@
+{
+  "id": 19,
+  "title": "Balanced Brackets",
+  "description": "Write a function `solve(input)` that takes a string of brackets ()[]{}  and returns \"true\" if they are balanced and properly nested, or \"false\" otherwise.",
+  "examples": [
+    { "input": "()[]{}", "output": "true" },
+    { "input": "([)]", "output": "false" },
+    { "input": "{[]}", "output": "true" }
+  ],
+  "testCases": [
+    { "input": "()[]{}", "expected": "true", "visible": true },
+    { "input": "([)]", "expected": "false", "visible": true },
+    { "input": "{[]}", "expected": "true", "visible": true },
+    { "input": "", "expected": "true", "visible": false },
+    { "input": "((()))", "expected": "true", "visible": false },
+    { "input": "({[}])", "expected": "false", "visible": false },
+    { "input": "(", "expected": "false", "visible": false }
+  ],
+  "par": { "js": 100, "python": 85 },
+  "difficulty": "medium",
+  "tags": ["stacks", "strings"]
+}

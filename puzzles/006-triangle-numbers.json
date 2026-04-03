@@ -1,0 +1,19 @@
+{
+  "id": 6,
+  "title": "Triangle Number",
+  "description": "Write a function `solve(input)` that takes a number n (as a string) and returns the nth triangle number as a string. The nth triangle number is 1 + 2 + 3 + ... + n.",
+  "examples": [
+    { "input": "4", "output": "10" },
+    { "input": "7", "output": "28" }
+  ],
+  "testCases": [
+    { "input": "4", "expected": "10", "visible": true },
+    { "input": "7", "expected": "28", "visible": true },
+    { "input": "1", "expected": "1", "visible": false },
+    { "input": "100", "expected": "5050", "visible": false },
+    { "input": "0", "expected": "0", "visible": false }
+  ],
+  "par": { "js": 50, "python": 45 },
+  "difficulty": "easy",
+  "tags": ["math"]
+}

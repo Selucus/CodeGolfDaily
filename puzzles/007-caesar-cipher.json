@@ -1,0 +1,19 @@
+{
+  "id": 7,
+  "title": "Caesar Cipher",
+  "description": "Write a function `solve(input)` that takes a string in the format \"shift,text\" and returns the text with each letter shifted forward by shift positions in the alphabet. Wrap around from z to a. Only shift lowercase letters, leave everything else unchanged.",
+  "examples": [
+    { "input": "3,hello", "output": "khoor" },
+    { "input": "1,xyz", "output": "yza" }
+  ],
+  "testCases": [
+    { "input": "3,hello", "expected": "khoor", "visible": true },
+    { "input": "1,xyz", "expected": "yza", "visible": true },
+    { "input": "13,abc", "expected": "nop", "visible": false },
+    { "input": "0,test", "expected": "test", "visible": false },
+    { "input": "5,hello world!", "expected": "mjqqt btwqi!", "visible": false }
+  ],
+  "par": { "js": 110, "python": 90 },
+  "difficulty": "medium",
+  "tags": ["strings", "encryption"]
+}

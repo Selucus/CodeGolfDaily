@@ -1,0 +1,19 @@
+{
+  "id": 16,
+  "title": "Collatz Steps",
+  "description": "Write a function `solve(input)` that takes a positive integer (as a string) and returns the number of steps to reach 1 in the Collatz sequence as a string. If n is even, the next number is n/2. If n is odd, the next number is 3n+1.",
+  "examples": [
+    { "input": "6", "output": "8" },
+    { "input": "1", "output": "0" }
+  ],
+  "testCases": [
+    { "input": "6", "expected": "8", "visible": true },
+    { "input": "1", "expected": "0", "visible": true },
+    { "input": "2", "expected": "1", "visible": false },
+    { "input": "27", "expected": "111", "visible": false },
+    { "input": "10", "expected": "6", "visible": false }
+  ],
+  "par": { "js": 80, "python": 70 },
+  "difficulty": "medium",
+  "tags": ["math", "loops"]
+}
