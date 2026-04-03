@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "title": "Is Palindrome?",
+  "description": "Write a function `solve(input)` that takes a string and returns \"true\" if it's a palindrome (case-insensitive, ignoring non-alphanumeric characters), or \"false\" otherwise.",
+  "examples": [
+    { "input": "racecar", "output": "true" },
+    { "input": "hello", "output": "false" },
+    { "input": "A man a plan a canal Panama", "output": "true" }
+  ],
+  "testCases": [
+    { "input": "racecar", "expected": "true", "visible": true },
+    { "input": "hello", "expected": "false", "visible": true },
+    { "input": "A man a plan a canal Panama", "expected": "true", "visible": true },
+    { "input": "Was it a car or a cat I saw", "expected": "true", "visible": false },
+    { "input": "abc", "expected": "false", "visible": false },
+    { "input": "a", "expected": "true", "visible": false }
+  ],
+  "par": { "js": 100, "python": 85 },
+  "difficulty": "medium",
+  "tags": ["strings"]
+}

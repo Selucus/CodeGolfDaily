@@ -1,0 +1,19 @@
+{
+  "id": 5,
+  "title": "Count Vowels",
+  "description": "Write a function `solve(input)` that takes a string and returns the number of vowels (a, e, i, o, u, case-insensitive) as a string.",
+  "examples": [
+    { "input": "hello world", "output": "3" },
+    { "input": "AEIOU", "output": "5" }
+  ],
+  "testCases": [
+    { "input": "hello world", "expected": "3", "visible": true },
+    { "input": "AEIOU", "expected": "5", "visible": true },
+    { "input": "rhythm", "expected": "0", "visible": false },
+    { "input": "Beautiful Day", "expected": "6", "visible": false },
+    { "input": "", "expected": "0", "visible": false }
+  ],
+  "par": { "js": 75, "python": 60 },
+  "difficulty": "easy",
+  "tags": ["strings", "counting"]
+}

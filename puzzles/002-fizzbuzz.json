@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "title": "FizzBuzz",
+  "description": "Write a function `solve(input)` that takes a number n (as a string) and returns FizzBuzz output from 1 to n, each value on a new line. For multiples of 3 print \"Fizz\", multiples of 5 print \"Buzz\", multiples of both print \"FizzBuzz\", otherwise print the number.",
+  "examples": [
+    { "input": "5", "output": "1\n2\nFizz\n4\nBuzz" }
+  ],
+  "testCases": [
+    { "input": "5", "expected": "1\n2\nFizz\n4\nBuzz", "visible": true },
+    { "input": "3", "expected": "1\n2\nFizz", "visible": true },
+    { "input": "15", "expected": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz", "visible": false },
+    { "input": "1", "expected": "1", "visible": false }
+  ],
+  "par": { "js": 130, "python": 110 },
+  "difficulty": "easy",
+  "tags": ["loops", "conditionals"]
+}

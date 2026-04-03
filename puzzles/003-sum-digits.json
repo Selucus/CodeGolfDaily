@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "title": "Sum of Digits",
+  "description": "Write a function `solve(input)` that takes a non-negative integer (as a string) and returns the sum of its digits as a string.",
+  "examples": [
+    { "input": "123", "output": "6" },
+    { "input": "9999", "output": "36" }
+  ],
+  "testCases": [
+    { "input": "123", "expected": "6", "visible": true },
+    { "input": "9999", "expected": "36", "visible": true },
+    { "input": "0", "expected": "0", "visible": false },
+    { "input": "10", "expected": "1", "visible": false },
+    { "input": "55555", "expected": "25", "visible": false }
+  ],
+  "par": { "js": 75, "python": 60 },
+  "difficulty": "easy",
+  "tags": ["math", "strings"]
+}

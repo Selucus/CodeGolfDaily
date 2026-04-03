@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "title": "Reverse String",
+  "description": "Write a function `solve(input)` that takes a string and returns it reversed.",
+  "examples": [
+    { "input": "hello", "output": "olleh" },
+    { "input": "world", "output": "dlrow" }
+  ],
+  "testCases": [
+    { "input": "hello", "expected": "olleh", "visible": true },
+    { "input": "world", "expected": "dlrow", "visible": true },
+    { "input": "abcdef", "expected": "fedcba", "visible": false },
+    { "input": "a", "expected": "a", "visible": false },
+    { "input": "racecar", "expected": "racecar", "visible": false }
+  ],
+  "par": { "js": 60, "python": 55 },
+  "difficulty": "easy",
+  "tags": ["strings"]
+}
