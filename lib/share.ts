@@ -7,7 +7,7 @@ export function generateShareText(
   charCount: number,
   stars: number,
   language: Language,
-  code: string
+  code: string,
 ): string {
   const langLabel = language === "javascript" ? "JavaScript" : "Python";
   const langTag = language === "javascript" ? "js" : "python";
@@ -20,7 +20,7 @@ export function generateShareText(
     code,
     "```",
     "",
-    "codegolfdaily.com",
+    "code-golf-daily.vercel.app/",
   ].join("\n");
 }
 
