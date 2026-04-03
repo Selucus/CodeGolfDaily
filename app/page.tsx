@@ -219,8 +219,24 @@ export default function Home() {
     ? getDisplayCharCount(currentSubmission.code)
     : charCount;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "CodeGolfDaily",
+    url: "https://code-golf-daily.vercel.app",
+    description:
+      "Solve a new code golf challenge every day. Write the shortest code possible in JavaScript or Python.",
+    applicationCategory: "Game",
+    operatingSystem: "Any",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header onHelp={() => setShowHelp(true)} />
       <HowToPlay open={showHelp} onClose={() => setShowHelp(false)} />
       <main className="flex-1 w-full max-w-2xl mx-auto px-4 py-6 space-y-5">

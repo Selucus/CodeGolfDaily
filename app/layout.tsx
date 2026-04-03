@@ -18,7 +18,10 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+const siteUrl = "https://code-golf-daily.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "CodeGolfDaily - Daily Code Golf Puzzles",
   description:
     "Solve a new code golf challenge every day. Write the shortest code possible in JavaScript or Python. Free, no account needed.",
@@ -30,13 +33,19 @@ export const metadata: Metadata = {
     "python",
     "coding game",
     "wordle for programmers",
+    "shortest code",
+    "daily coding challenge",
   ],
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
     title: "CodeGolfDaily - Daily Code Golf Puzzles",
     description:
       "A new code golf challenge every day. How short can your code be?",
     type: "website",
     siteName: "CodeGolfDaily",
+    url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",
